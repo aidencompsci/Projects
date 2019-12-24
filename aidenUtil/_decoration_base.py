@@ -1,4 +1,7 @@
-#should override this one too haha
+# note, this is just a working version. I want to change all the var names and make it more succinct
+# for a final version of course, but this is how I wrote it initially.
+
+# should override this one too haha
 def funcall(func, *args, **kwargs):
 	func(*args, **kwargs)
 
@@ -40,7 +43,7 @@ def unpack_args(args):
 	types = type_list_from_arg_list(type_args)
 	strtypes = str(types).replace("\"", "")
 
-	#look at the quote marks, I feel like there should be a better way to handle arg lists to string?
+	# look at the quote marks, I feel like there should be a better way to handle arg lists to string?
 
 	return new_args, types, strtypes
 
