@@ -1,6 +1,6 @@
 """
 example:
-from util.styles import styles
+from Projects.util.styles import styles
 string = "" + styles.red + "ERROR" + styles.clear +\
                  ": Max Recursion Depth Reached. Stopping instance"
 """
